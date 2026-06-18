@@ -2,7 +2,9 @@
   "command.newJsApp.title": "innovaphone: Neue JS App",
   "command.configureSdkPath.title": "innovaphone: SDK-Pfad konfigurieren",
   "command.configureCompanyName.title": "innovaphone: Hersteller/Firma konfigurieren",
+  "command.configureProjectPath.title": "innovaphone: Standard Projekt Verzeichnis konfigurieren",
 
   "setting.sdkPath.description": "Pfad zum innovaphone SDK",
-  "setting.companyName.description": "Hersteller- oder Firmenname für neue innovaphone Apps"
+  "setting.companyName.description": "Hersteller- oder Firmenname für neue innovaphone Apps",
+  "setting.projectPath.description": "Standard Verzeichnis in welchem neue Projekte angelegt werden sollen"
 }

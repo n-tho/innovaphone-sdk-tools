@@ -24,6 +24,10 @@
       {
         "command": "innovaphone.configureCompanyName",
         "title": "%command.configureCompanyName.title%"
+      },
+      {
+        "command": "innovaphone.configureProjectPath",
+        "title": "%command.configureProjectPath.title%"
       }
     ],
     "configuration": {
@@ -38,6 +42,11 @@
           "type": "string",
           "default": "",
           "description": "%setting.companyName.description%"
+        },
+        "innovaphone.projectPath": {
+          "type": "string",
+          "default": "",
+          "description": "%setting.projectPath.description%"
         }
       }
     }
