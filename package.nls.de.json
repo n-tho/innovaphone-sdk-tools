@@ -1,5 +1,8 @@
 {
-  "command.innovaphone.newJsApp.title": "innovaphone: Neue JS App",
+  "command.newJsApp.title": "innovaphone: Neue JS App",
   "command.configureSdkPath.title": "innovaphone: SDK-Pfad konfigurieren",
-  "setting.sdkPath.description": "Pfad zum innovaphone SDK"
+  "command.configureCompanyName.title": "innovaphone: Hersteller/Firma konfigurieren",
+
+  "setting.sdkPath.description": "Pfad zum innovaphone SDK",
+  "setting.companyName.description": "Hersteller- oder Firmenname für neue innovaphone Apps"
 }

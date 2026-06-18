@@ -3,5 +3,11 @@
   "Name is required": "Name fehlt",
   "Only letters, numbers, underscore and dash are allowed": "Nur Buchstaben, Zahlen, _ und -",
   "New innovaphone JS app: {0}": "Neue innovaphone JS App: {0}",
-  "Select SDK folder": "SDK-Ordner auswählen"
+  "Select SDK folder": "SDK-Ordner auswählen",
+  "Select project location": "Projektordner auswählen",
+  "Project created: {0}": "Projekt erstellt: {0}",
+  "Configure Company Name": "Firmenname konfigurieren",
+  "Company/manufacturer name": "Firma/Hersteller-Name",
+  "Company name is required": "Firmenname ist notwendig",
+  "Company name saved: {0}": "Firmenname gespeichert: {0}"
 }

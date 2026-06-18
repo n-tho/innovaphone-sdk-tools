@@ -20,6 +20,10 @@
       {
         "command": "innovaphone.configureSdkPath",
         "title": "%command.configureSdkPath.title%"
+      },
+      {
+        "command": "innovaphone.configureCompanyName",
+        "title": "%command.configureCompanyName.title%"
       }
     ],
     "configuration": {
@@ -29,6 +33,11 @@
           "type": "string",
           "default": "",
           "description": "%setting.sdkPath.description%"
+        },
+        "innovaphone.companyName": {
+          "type": "string",
+          "default": "",
+          "description": "%setting.companyName.description%"
         }
       }
     }
@@ -44,7 +53,7 @@
   },
   "devDependencies": {
     "@types/mocha": "^10.0.10",
-    "@types/node": "22.x",
+    "@types/node": "^22.19.21",
     "@types/vscode": "^1.121.0",
     "@vscode/test-cli": "^0.0.11",
     "@vscode/test-electron": "^2.5.2",

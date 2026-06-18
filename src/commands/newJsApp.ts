@@ -1,4 +1,5 @@
 import * as vscode from "vscode";
+import { ProjectService } from "../services/projectService";
 
 export function registerNewJsAppCommand(
   context: vscode.ExtensionContext,
@@ -14,8 +15,24 @@ export function registerNewJsAppCommand(
         return;
       }
 
+      const folder = await vscode.window.showOpenDialog({
+        canSelectFiles: false,
+        canSelectFolders: true,
+        canSelectMany: false,
+        title: vscode.l10n.t("Select project location"),
+      });
+
+      if (!folder?.length) {
+        return;
+      }
+
+      const projectPath = await ProjectService.createProject(
+        folder[0].fsPath,
+        appName,
+      );
+
       vscode.window.showInformationMessage(
-        vscode.l10n.t("New innovaphone JS app: {0}", appName),
+        vscode.l10n.t("Project created: {0}", projectPath),
       );
     },
   );

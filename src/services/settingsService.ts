@@ -15,4 +15,17 @@ export class SettingsService {
 
     return config.get<string>("sdkPath");
   }
+  public static async setCompanyName(companyName: string): Promise<void> {
+    const config = vscode.workspace.getConfiguration(this.SECTION);
+    await config.update(
+      "companyName",
+      companyName,
+      vscode.ConfigurationTarget.Global,
+    );
+  }
+
+  public static getCompanyName(): string | undefined {
+    const config = vscode.workspace.getConfiguration(this.SECTION);
+    return config.get<string>("companyName");
+  }
 }
