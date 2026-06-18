@@ -1,0 +1,5 @@
+{
+  "command.innovaphone.newJsApp.title": "innovaphone: Neue JS App",
+  "command.configureSdkPath.title": "innovaphone: SDK-Pfad konfigurieren",
+  "setting.sdkPath.description": "Pfad zum innovaphone SDK"
+}
